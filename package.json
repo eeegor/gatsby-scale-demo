@@ -28,8 +28,10 @@
   ],
   "license": "MIT",
   "scripts": {
+    "copy:scale": "cp -r ./node_modules/@scaleds/components/dist ./public",
+    "prebuild": "yarn copy:scale",
+    "predevelop": "yarn copy:scale",
     "build": "gatsby build",
-    "predevelop": "cp -r ./node_modules/@scaleds/components/dist ./public",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
