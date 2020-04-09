@@ -1294,6 +1294,18 @@
     prop-types "^15.6.1"
     react-lifecycles-compat "^3.0.4"
 
+"@scaleds/components@^0.0.16":
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/@scaleds/components/-/components-0.0.16.tgz#07ce5e8909dc3c873b43bf61a040dc5ee5a17b03"
+  integrity sha512-JDqz/ou15GacnEB06pOlil5TIGqHsn6qrfYR0EZwyIHsDtAf8D8H6G/ZRnN3Zb8ScZg23glXizn/Rcp+szMa1A==
+  dependencies:
+    classnames "^2.2.6"
+
+"@scaleds/react-wrapper@^0.0.16":
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/@scaleds/react-wrapper/-/react-wrapper-0.0.16.tgz#ce75b9ad5957234197f43fabd6b46e48afcee511"
+  integrity sha512-/6JIqKuhzJEIvfHwitDLIy/0Lglv3p/NTcQA4Z1Dt6OBxEagydDC8F6driQ8sZn4tn82QaYgYD2KCbvj92fXng==
+
 "@sindresorhus/is@^0.14.0":
   version "0.14.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
@@ -2920,6 +2932,11 @@ class-utils@^0.3.5:
     define-property "^0.2.5"
     isobject "^3.0.0"
     static-extend "^0.1.1"
+
+classnames@^2.2.6:
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
+  integrity sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==
 
 clean-stack@^2.0.0:
   version "2.2.0"
